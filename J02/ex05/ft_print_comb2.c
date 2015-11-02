@@ -59,9 +59,3 @@ void	ft_print_comb2()
 		a++;
 	}
 }
-
-int	main()
-{
-	ft_print_comb2();
-	return(0);
-}

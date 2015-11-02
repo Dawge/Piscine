@@ -5,19 +5,13 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void	ft_print_numbers()
+void	ft_print_alphabet()
 {
 	char c;
-	c = '1';
-	while(c <= '9')
+	c = 'a';
+	while(c <= 'z')
 	{
 		ft_putchar(c);
 		c++;
 	}
-}
-
-int	main()
-{
-	ft_print_numbers();
-	return(0);
 }
